@@ -41,11 +41,17 @@
   box-sizing: border-box;
   float: left;
   font-size: 1rem;
+  margin: 40px 1% 0;
   padding: 2%;
-  width: 25%;
+  width: 23%;
+
 }
+
   .bio-box h3 {
-    font-size: 1.5em;
+    color: #fff;
+  font-size: 1.5em;
+  margin-top: -40px;
+  text-align: center;
   }
   .bio-copy {
     font-size: 1em;
@@ -56,12 +62,27 @@
   .sample01 {
     background-color: #c7dbfc;
   }
+
+  .bio-wrapper {
+  margin: 50px 40px 50px 40px;
+  max-width: 960px;
+  /*overflow: hidden;*/
+}
+
+.bio-box img{
+  width: 100%;
+}
+
+p {
+  float: left;
+}
+  
 </style>
   </head>
   <body>
   <div class="sample01">
     <h1>I'm an h1</h1>
-    <ul>
+    <ul> 
       <li>
         <a href="http://example.com/">Link</a>
       </li>
@@ -76,6 +97,7 @@
     <h2>I'm an h2</h2>
     
     <div class="bio-box">
+      <img src="http://placekitten.com/g/400/400">
       <h3>Michael Hartl</h3>
       <a href="http://twitter.com/mhartl" class="social-link" target="_blank">here</a>
       <div class="bio-copy">
@@ -91,6 +113,7 @@
       </div>
     </div>
     <div class="bio-box">
+      <img src="http://placekitten.com/g/400/400">
       <h3>Lee Donahoe</h3>
       <a href="https://twitter.com/leedonahoe" class="social-link" target="_blank">here</a>
       <div class="bio-copy">
@@ -103,6 +126,7 @@
       </div>
     </div>
     <div class="bio-box">
+      <img src="http://placekitten.com/g/400/400">
       <h3>Nick Merwin</h3>
       <a href="https://twitter.com/nickmerwin" class="social-link" target="_blank">here</a>
       <div class="bio-copy">
@@ -115,16 +139,13 @@
       </div>
     </div>
     <div class="bio-box">
+    <img src="http://placekitten.com/g/400/400">
       <h3>??</h3>
       <p>
         The Future
       </p>
     </div>
   <div class="bio-wrapper">
-    .
-    .
-    .
-  </div>
   <p>
     Learn Enough to Be Dangerous is a leader in the movement to teach the
     world <em>technical sophistication</em>, which includes both "hard
@@ -138,6 +159,8 @@
     our movement,
     <a href="http://learnenough.com/#email_list">sign up for our official
     email list</a> now.
+    <br>
+    <br>
   </p>
   <h3>Background</h3>
   <p>
@@ -152,5 +175,6 @@
     Other related tutorials can be found at
     <a href="http://learnenough.com/">learnenough.com</a>.
   </p>
+  </div>
   </body>
 </html>
