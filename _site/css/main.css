@@ -21,7 +21,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  font-family: helvetica, arial, sans;
+  line-height: 1;
 }
 blockquote, q {
   quotes: none;
